@@ -16,15 +16,25 @@ Generates audience personas with targeted long-tail search phrases and key quest
 
 ---
 
+### [content-titles-generator](./skills/content-titles-generator/)
+
+Generates catchy, magnetic article and content titles for any topic, with optional control over writing style and tone. Originally built as the Content Titles Generator Streamlit app — ported to a Claude skill with 19 style options, 43 tone options, topic-implied tone detection, and the ability to develop a chosen title into an outline or intro paragraph.
+
+**Triggers:** "content titles", "title ideas", "headline ideas", "generate titles", "give me title ideas for [topic]", "I need a title for", "suggest headlines for"
+
+---
+
 ## Structure
 
 \`\`\`
 seoworks-skills-repository/
 ├── README.md                        # This file
 └── skills/
-    └── persona-plotter/
-        ├── SKILL.md                 # Core skill instructions & metadata
-        └── resources/               # Assets (logos, templates, examples)
+    ├── persona-plotter/
+    │   ├── SKILL.md                 # Core skill instructions & metadata
+    │   └── resources/               # Assets (logos, templates, examples)
+    └── content-titles-generator/
+        └── SKILL.md                 # Core skill instructions & metadata
 \`\`\`
 
 ---
