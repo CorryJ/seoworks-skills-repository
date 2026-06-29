@@ -58,11 +58,26 @@ Skills are installed via the Claude desktop app or Claude Code. Each skill is a 
 
 ### Step 1 — Find your skills directory
 
-On macOS, your Claude skills directory is typically:
+On macOS and Linux, your Claude skills directory is typically:
 
 \`\`\`
 ~/claude/skills/
 \`\`\`
+
+
+On Windows, your Claude skills directory is typically:
+
+\`\`\`
+C:\Users<your-username>.claude\skills\
+\`\`\`
+
+You can also open it quickly from PowerShell or Command Prompt by running:
+
+\`\`\`
+explorer %USERPROFILE%.claude\skills
+\`\`\`
+
+Note: the `.claude` folder is hidden by default on Windows. In File Explorer, go to View and tick "Hidden items" to make it visible.
 
 If it does not exist yet, create it.
 
