@@ -18,20 +18,39 @@ make the reader want to read on.
 
 ## Inputs to gather
 
-You need up to four things from the user. Some may already be in their message — only ask for
-what's missing.
+You need up to four things from the user. Topic and number of titles may already be in their
+message — use them. But always ask for style and tone before generating, even if the user
+seems in a hurry. This is a required step, not optional.
 
 1. **Topic** — what is the article or content about? (required)
 2. **Number of titles** — how many do they want? Default to 10 if not specified.
-3. **Writing style** — optional. If not provided, use Default (varied, punchy, accessible).
-4. **Tone** — optional. If not provided, use Default (professional but engaging).
+3. **Writing style** — always ask before generating (see below)
+4. **Tone** — always ask before generating (see below)
 
-If the topic is the only thing provided, proceed with defaults for the rest — do not ask
-clarifying questions unless the topic itself is too vague to work with.
+## How to ask for style and tone
 
-If the user provides no style or tone but the topic implies one (e.g. a legal topic implies
-authoritative, a kids activity topic implies fun/playful), use your judgement and apply it
-silently.
+Once you have the topic and number, ask the user to choose a style and tone before you
+generate anything. Present it like this:
+
+---
+
+Before I generate, pick a style and tone — or suggest your own if none of these fit:
+
+**Style** (pick one):
+Conversational · Journalistic · Persuasive · Informative · Creative · Analytical ·
+Argumentative · Technical · Narrative · Satirical · or suggest your own
+
+**Tone** (pick one):
+Professional · Friendly · Witty · Authoritative · Casual · Edgy · Enthusiastic ·
+Provocative · Matter of fact · Playful · Trustworthy · Formal · or suggest your own
+
+---
+
+Show the most commonly useful options as above — do not list all 19 styles and 43 tones
+in the question as it will overwhelm. If the user suggests their own style or tone that
+is not on the lists, accept it and use it.
+
+Only generate the titles once both style and tone have been confirmed.
 
 ## Available styles
 
