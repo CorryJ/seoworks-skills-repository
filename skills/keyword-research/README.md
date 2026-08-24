@@ -61,3 +61,22 @@ Once approved, the map feeds two downstream places:
 - **The content-strategist skill** — each primary group becomes an entry point for content planning, using the group's topic and primary keyword as the starting request.
 
 The tracking prompts and GEO candidates stay with the account manager for ongoing measurement and GEO follow-up; they don't pass into content-strategist.
+
+---
+
+## Help — connecting DataForSEO (Windows)
+
+This skill relies on the DataForSEO MCP connector for live search volume, keyword difficulty, and competitor-gap data (Step 3). If it isn't set up in your Claude Desktop app yet:
+
+1. A ready-made template is included at [`resources/claude_desktop_config.json`](./resources/claude_desktop_config.json).
+2. On Windows, Claude Desktop's config file lives at:
+
+   ```
+   %APPDATA%\Claude\claude_desktop_config.json
+   ```
+
+   This typically expands to `C:\Users\<YourUsername>\AppData\Roaming\Claude\claude_desktop_config.json`. The `AppData` folder is hidden by default — in File Explorer, go to View and tick "Hidden items" to see it, or paste the `%APPDATA%\Claude\` path directly into the File Explorer address bar.
+
+3. If the file already exists and contains other `mcpServers` entries, add the `dataforseo` block from the template into your existing `mcpServers` object rather than overwriting the file. If it doesn't exist yet, create it and paste in the template contents.
+4. Replace the placeholder credential values with the real ones (**speak to James C for details**).
+5. Save the file and fully restart Claude Desktop for the change to take effect.

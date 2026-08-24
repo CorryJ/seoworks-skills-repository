@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "dataforseo": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "dataforseo-mcp-server"
+      ],
+      "env": {
+        "DATAFORSEO_USERNAME": "Speak to James C for details",
+        "DATAFORSEO_PASSWORD": "Speak to James C for details",
+        "ENABLED_MODULES": "SERP,KEYWORDS_DATA,ONPAGE,DATAFORSEO_LABS,BACKLINKS,DOMAIN_ANALYTICS,BUSINESS_DATA,CONTENT_ANALYSIS,AI_OPTIMIZATION"
+      }
+    }
+  }
+}
