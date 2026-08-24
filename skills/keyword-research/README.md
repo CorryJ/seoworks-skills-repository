@@ -69,7 +69,13 @@ The tracking prompts and GEO candidates stay with the account manager for ongoin
 This skill relies on the DataForSEO MCP connector for live search volume, keyword difficulty, and competitor-gap data (Step 3). If it isn't set up in your Claude Desktop app yet:
 
 1. A ready-made template is included at [`resources/claude_desktop_config.json`](./resources/claude_desktop_config.json).
-2. On Windows, Claude Desktop's config file lives at:
+2. Open the config file. The easiest way is from within Claude Desktop itself:
+
+   **Settings → Developer → Edit Config**
+
+   This opens `claude_desktop_config.json` directly (creating it if it doesn't already exist), so you don't need to hunt for it manually.
+
+   If you'd rather find it yourself, on Windows it lives at:
 
    ```
    %APPDATA%\Claude\claude_desktop_config.json
