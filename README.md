@@ -32,6 +32,14 @@ Generates a comprehensive hierarchical mind map for any topic, breaking it down 
 
 ---
 
+### [keyword-research](./skills/keyword-research/)
+
+Runs the foundational keyword research phase at the start of an SEO campaign: 3–5 primary keyword priority groups, each with primary keywords, AI visibility-tracking prompts, and a banked reserve of secondary keywords. Uses live GSC, DataForSEO, and SEMrush data, with two built-in approval gates before the map is treated as final. Feeds directly into the content-strategist skill.
+
+**Triggers:** "keyword research", "KWR", "keyword priority groups", "keyword mapping", "keyword strategy", "declining-keyword analysis"
+
+---
+
 ## Repository structure
 
 \`\`\`
@@ -45,7 +53,10 @@ seoworks-skills-repository/
     ├── content-titles-generator/
     │   ├── SKILL.md                      # Core skill instructions & metadata
     │   └── README.md                     # What the skill does & how to use it
-    └── topical-mind-map/
+    ├── topical-mind-map/
+    │   ├── SKILL.md                      # Core skill instructions & metadata
+    │   └── README.md                     # What the skill does & how to use it
+    └── keyword-research/
         ├── SKILL.md                      # Core skill instructions & metadata
         └── README.md                     # What the skill does & how to use it
 \`\`\`
