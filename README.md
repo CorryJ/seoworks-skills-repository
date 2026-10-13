@@ -40,6 +40,14 @@ Runs the foundational keyword research phase at the start of an SEO campaign: 3�
 
 ---
 
+### [content-workflow](./skills/content-workflow/)
+
+A set of eight connected skills covering the full content process: client setup, tone analysis, SERP-led briefs, drafting, editing, pre-publication QA and JSON-LD schema, plus a standalone quality-check for any finished content. Shares one set of content standards across all stages. Follows on from keyword-research.
+
+**Triggers:** "/content-setup", "content brief", "SERP analysis", "draft the article", "edit this draft", "review this content", "write the schema", "/quality-check"
+
+---
+
 ## Repository structure
 
 \`\`\`
@@ -56,9 +64,12 @@ seoworks-skills-repository/
     ├── topical-mind-map/
     │   ├── SKILL.md                      # Core skill instructions & metadata
     │   └── README.md                     # What the skill does & how to use it
-    └── keyword-research/
-        ├── SKILL.md                      # Core skill instructions & metadata
-        └── README.md                     # What the skill does & how to use it
+    ├── keyword-research/
+    │   ├── SKILL.md                      # Core skill instructions & metadata
+    │   └── README.md                     # What the skill does & how to use it
+    └── content-workflow/
+        ├── README.md                     # How the eight skills fit together
+        └── <skill-name>/                 # One folder per skill (SKILL.md + references/)
 \`\`\`
 
 ---
